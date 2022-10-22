@@ -435,15 +435,19 @@
 
           <div class="form-field">
             <label for="comment">Коментар</label>
-            <input type="textarea" name="comment" id="comment" placeholder="Введіть текст" />
+            <textarea name="comment" id="comment" rows="7" placeholder="Введіть текст"></textarea>
           </div>
 
-          <input type="checkbox" name="policy" id="policy" />
-          <label for="policy"
-            >Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label
-          >
+          <div class="policy">
+            <input type="checkbox" name="policy" id="policy" />
+            <label for="policy" class="contract-terms"
+              >Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label
+            >
+          </div>
 
-          <button type="submit" class="button-submit">Відправити</button>
+          <div class="container-button-submit">
+            <button type="submit" class="button-submit">Відправити</button>
+          </div>
         </form>
         <button data-modal-close class="button-close">
           <svg width="30" height="30">
