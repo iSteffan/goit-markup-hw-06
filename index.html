@@ -20,6 +20,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <!-- Хедер -->
     <header class="page-header">
@@ -409,6 +410,18 @@
               </li>
             </ul>
           </div>
+          <div class="subscribe-container">
+            <h2 class="join-title">Підпишіться на розсилку</h2>
+            <form>
+              <input type="email" name="subscribe" id="subscribe" placeholder="E-mail" />
+              <button type="submit" class="button-subscribe">
+                Підписатися
+                <svg width="24" height="24">
+                  <use href="./img/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -430,7 +443,7 @@
 
           <div class="form-field">
             <label for="mail">Пошта</label>
-            <input type="mail" name="mail" id="mail" />
+            <input type="email" name="mail" id="mail" />
           </div>
 
           <div class="form-field">
