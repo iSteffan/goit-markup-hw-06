@@ -424,6 +424,7 @@ img {
 }
 
 .button-subscribe {
+  display: flex;
   align-items: center;
   padding: 10px 28px;
 
@@ -532,9 +533,12 @@ img {
   gap: 10px;
 }
 
-.subscribe-container {
+.button-subscribe svg {
+  margin-left: 10px;
+}
+
+.subscribe-container form {
   display: flex;
-  flex-direction: column;
 }
 
 .subscribe-container input {
