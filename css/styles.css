@@ -810,7 +810,9 @@ img {
   text-indent: 42px;
 }
 
-.form-field input:focus {
+.form-field input:focus,
+.form-field > textarea:focus {
+  outline: none;
   border: 1px solid var(--accent-color);
 }
 
