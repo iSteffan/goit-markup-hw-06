@@ -807,6 +807,15 @@ img {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  text-indent: 42px;
+}
+
+.form-field input:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.form-field input:focus + svg {
+  fill: var(--accent-color);
 }
 
 .form-field > textarea {
