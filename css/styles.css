@@ -565,9 +565,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.button-subscribe svg {
-}
-
 /* ----------------------------------------Прихований контент---------------------------------------- */
 .visually-hidden {
   position: absolute;
@@ -844,6 +841,8 @@ img {
 }
 
 .contract-terms {
+  display: flex;
+  flex-direction: row-reverse;
   margin-left: 9px;
 
   font-weight: 400;
@@ -880,6 +879,16 @@ img {
   left: 12px;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-icon {
+  border: 2px solid #212121;
+  fill: #fff;
+}
+
+.checkbox:checked ~ .checkbox-icon {
+  border: 0;
+  fill: var(--accent-color);
 }
 
 /* ----------------------------------------Portfolio.html---------------------------------------- */
