@@ -843,7 +843,7 @@ img {
 .contract-terms {
   display: flex;
   flex-direction: row-reverse;
-  margin-left: 9px;
+  align-items: center;
 
   font-weight: 400;
   font-size: 14px;
@@ -882,13 +882,17 @@ img {
 }
 
 .checkbox-icon {
+  margin-right: 9px;
+
   border: 2px solid #212121;
+  border-radius: 2px;
   fill: #fff;
 }
 
 .checkbox:checked ~ .checkbox-icon {
   border: 0;
   fill: var(--accent-color);
+  border-radius: 0;
 }
 
 /* ----------------------------------------Portfolio.html---------------------------------------- */
