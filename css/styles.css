@@ -844,6 +844,8 @@ img {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  gap: 9px;
+  margin-left: 12px;
 
   font-weight: 400;
   font-size: 14px;
@@ -854,9 +856,10 @@ img {
 }
 
 .policy {
-  display: flex;
+  display: inline-flex;
   margin-top: 20px;
-  justify-content: center;
+
+  width: 100%;
 }
 
 .policy a {
@@ -882,8 +885,6 @@ img {
 }
 
 .checkbox-icon {
-  margin-right: 9px;
-
   border: 2px solid #212121;
   border-radius: 2px;
   fill: #fff;
